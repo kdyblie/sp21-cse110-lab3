@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="mystyle.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevin's Journal Entries</title>
     <link href="part2.txt" rel="Click here for Lab 2 Part 2">
+    <style>
+        audio {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <header> 
-        <img src = "IMG-1843.jpg" alt = "A picture of me!">
+        <img class = "box" src = "IMG-1843.jpg" alt = "A picture of me!">
         <div>All Entries</div>
         <nav>
             <ul>
@@ -18,6 +24,7 @@
                 <li><a href="#">2 Days Ago</a></li>
             </ul>
         </nav>
+        </header>
     </header>    
     <main>
         <h1>Today</h1>
@@ -30,12 +37,12 @@
             <p>I didn't do much today after getting off work at <b class="workplace">In-N-Out</b> I picked up food and groceries for my family and then started working on Lab 2 for CSE110. In Lab 2 I will be using HTML for the first time ever, I should've started earlier as many previous professors have said I should <em>"Start early, start often!"</em>.</p>
         </section>
         <hr>
-        <h2>Yesterday</h2>
+        <h2 style="color: rgb(0, 0, 0);font-size: 35px;margin: 10px;text-decoration: underline;text-align: center;">Yesterday</h2>
         <p> I started my off sleeping in till noon. Then I studied CSE 101 most of the day getting ready for a quiz that was due at midnight. Ended up taking the quiz and did better then I thought I would've. I might have even aced it if it wasn't for the dumb mistake I made with the bounds.</p>
 
         <p> After taking the quiz I celebrated one of my friends birthdays by going to her house with a small group of friends. We caught up and sang Happy Birthday. Ended up coming home around 11 PM and going to bed shortly after returning home.</p>
         <hr>
-        <h3>2 Days Ago</h3>
+        <h3 style="color: rgb(0, 0, 0);font-size: 35px;margin: 10px;text-decoration: underline;text-align: center;">2 Days Ago</h3>
         <p>I spent all day catching up on lectures due to having to work during their synchronous scheduled times. What I am going to do for the rest of the night in order of importance:</p>
         <ol>
             <li><strong>Watch CSE 110 Lecture</strong></li>
@@ -57,7 +64,7 @@
         <audio controls
             src ="wavebig.mp3">
         </audio>
-        <video controls width="250">
+        <video class="box1" controls width="250">
             <source src="171124_H1_006.mp4"
                     type="video/mp4">
         </video>
