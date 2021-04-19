@@ -1,1 +1,1 @@
-https://kdyblie.github.io/Lab2/
+https://kdyblie.github.io/sp21-cse110-lab3/
