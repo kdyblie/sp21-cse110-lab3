@@ -8,6 +8,9 @@
     <title>Kevin's Journal Entries</title>
     <link href="part2.txt" rel="Click here for Lab 2 Part 2">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    </style>
+    <style>
         audio {
             display: none;
         }
@@ -16,7 +19,7 @@
 <body>
     <header> 
         <img class = "box" src = "IMG-1843.jpg" alt = "A picture of me!">
-        <div>All Entries</div>
+        <div><a href="#">Entries</a></div>
         <nav>
             <ul>
                 <li><a href="#">Today</a></li>
@@ -24,7 +27,6 @@
                 <li><a href="#">2 Days Ago</a></li>
             </ul>
         </nav>
-        </header>
     </header>    
     <main>
         <h1>Today</h1>
@@ -34,10 +36,10 @@
         </section>
         <section>
             <h3>After Work</h3>
-            <p>I didn't do much today after getting off work at <b class="workplace">In-N-Out</b> I picked up food and groceries for my family and then started working on Lab 2 for CSE110. In Lab 2 I will be using HTML for the first time ever, I should've started earlier as many previous professors have said I should <em>"Start early, start often!"</em>.</p>
+            <p>I didn't do much today after getting off work at <b id="IN-N_OUTifed">In-N-Out</b> I picked up food and groceries for my family and then started working on Lab 2 for CSE110. In Lab 2 I will be using HTML for the first time ever, I should've started earlier as many previous professors have said I should <em>"Start early, start often!"</em>.</p>
         </section>
         <hr>
-        <h2 style="color: rgb(0, 0, 0);font-size: 35px;margin: 10px;text-decoration: underline;text-align: center;">Yesterday</h2>
+        <h6>Yesterday</h6>
         <p> I started my off sleeping in till noon. Then I studied CSE 101 most of the day getting ready for a quiz that was due at midnight. Ended up taking the quiz and did better then I thought I would've. I might have even aced it if it wasn't for the dumb mistake I made with the bounds.</p>
 
         <p> After taking the quiz I celebrated one of my friends birthdays by going to her house with a small group of friends. We caught up and sang Happy Birthday. Ended up coming home around 11 PM and going to bed shortly after returning home.</p>
@@ -49,7 +51,7 @@
             <li><strong>Watch Math 170A Lecture</strong></li>
             <li><strong>Start prepping for Quiz 1 in CSE 101</strong></li>
         </ol>
-        <p>When thinking about taking the quiz for CSE 101, I try to stay positive and think <br><i>"I will do good!"</i>.</p>
+        <p>When thinking about taking the quiz for CSE 101, I try to stay positive and think <br><div class="desComb"><i>"I will do good!".</i></div></p>
     </main>
     <footer>
         <h4>Interested in Email Notifications?</h4>
@@ -57,17 +59,19 @@
         <input type="text" placeholder="Enter Email Address" />
         <button>Submit</button>
         </form>
-        <details>
-            <summary>Why the Audio and Video File</summary>
-            Because they are required to include in the website and I didn't know what else to do!
-        </details>
-        <audio controls
-            src ="wavebig.mp3">
-        </audio>
-        <video class="box1" controls width="250">
-            <source src="171124_H1_006.mp4"
-                    type="video/mp4">
-        </video>
+        <div class="flexbox">
+            <details>
+                <summary>Why the Audio and Video File</summary>
+                Because they are required to include in the website and I didn't know what else to do!
+            </details>
+            <audio controls
+                src ="wavebig.mp3">
+            </audio>
+            <video class="box1" controls width="250">
+                <source src="171124_H1_006.mp4"
+                        type="video/mp4">
+            </video>
+        </div>
     </footer>
 </body>
 </html>
