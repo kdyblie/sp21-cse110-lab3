@@ -3,12 +3,14 @@ body {
     background-color: firebrick;
 }
 /*changed today header to black*/
-h1 {
+h1,
+h6 {
     color: rgb(0, 0, 0);
     font-size: 35px;
     margin: 10px;
     text-decoration: underline;
     text-align: center;
+    display: block;
 }
 
 /*Changed Work to orange*/
@@ -50,6 +52,10 @@ img {
     position: static;
 }
 
+.desComb i {
+    background-color: mistyrose;
+}
+
 .box1 {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -72,4 +78,37 @@ img {
     margin: 1% auto;
     padding: 0px;
     border: 5px solid black;
-  }
+}
+
+*#IN-N_OUTifed {
+    color: white;
+    background-color: darkred;
+    border: 2px solid rgb(236, 236, 10);
+    padding: 2px;
+}
+
+a {
+    color: red;
+}
+
+a[href^="#"] {
+    background-color: black;
+}
+
+ol > li {
+    border-bottom: 3px solid black;
+}
+
+h4 ~ form {
+    background-color: hsl(24, 10%, 50%);
+    padding: 2px;
+}
+
+ol + p {
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+}
+
+.flexbox {
+    display: flex;
+}
